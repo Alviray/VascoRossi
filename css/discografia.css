@@ -40,7 +40,7 @@ header
 cover
 ----------------------------------*/
 .cover{height: 75%;
-  background-image: url(imgs/discografia.jpg); 
+  background-image: url(https://cloud.rtl.it/RTLFM/News/Article/1000xH/vasco-rossi-a-rtl-1025-ala-mia-vita-ea-priva-di-senso-senza-i-concerti-voglio-andare-in-giro-per-wide-site-ykfen.jpg); 
   background-size: cover;
   position: relative;
 }
