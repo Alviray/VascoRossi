@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="niewport" content="width=device.width, initial-scale=1">
+      <title> GALLERY VASCO </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="C:\Users\bart2\OneDrive\Desktop\sitoiu\css\gallery.css">
+ </head>
+
+<body>
+
+  <header class="header clearfix">
+    <a href="" class="header__icon-bar"> </a>
+     <ul class="header__menu">
+      <li class="header__menu__itemdiv"> <a href="C:\Users\bart2\OneDrive\Desktop\sitoiu\index.html"> <b> HOME </b> </a></li>
+      <li class="header__menu__item"> <a href="C:\Users\bart2\OneDrive\Desktop\sitoiu\discografia.html"> DISCOGRAFIA </a></li>
+      <li class="header__menu__item"> <a href="C:\Users\bart2\OneDrive\Desktop\sitoiu\storia.html"> STORIA </a></li>
+      <li class="header__menu__item"> <a href="C:\Users\bart2\OneDrive\Desktop\sitoiu\band.html">BAND </a></li>
+      <li class="header__menu__item"> <a href="C:\Users\bart2\OneDrive\Desktop\sitoiu\eventi.html"> EVENTI </a></li>
+      <li class="header__menu__item"> <a href="C:\Users\bart2\OneDrive\Desktop\sitoiu\shop.html"> SHOP </a></li>
+      <li class="header__menu__item"> <a href="C:\Users\bart2\OneDrive\Desktop\sitoiu\login.html"> LOGIN </a></li>
+     </ul>
+   </header>
+   
+
+
+
+
+
+
+
+
+   <footer>
+    <div class="container">
+     <div class="row">
+        <ul class="copyright">
+          <li>All rights reserved. | <a href="C:\Users\bart2\OneDrive\Desktop\sitoiu\documentazione.html"> DOCUMENTAZIONE </a> | Project made by Alessia Albano, Rosita Cuni Berzi |© 2023</li>
+        </ul>
+      </div>
+
+        <ul class="icons">
+            <li class="icons__item"> <a href="https://www.facebook.com/vascorossi/"> <i class="fa-brands fa-facebook" style="color:#ffffff;"> </i> </a>       
+            <li class="icons__item"> <a href="https://www.instagram.com/vascorossi/?hl=it"> <i class="fa-brands fa-instagram" style="color:#ffffff;"> </i> </a> </li>
+            <li class="icons__item"> <a href="https://www.youtube.com/channel/UCHubnYpuorQh5QglY2J60JQ"> <i class="fa-brands fa-youtube" style="color:#ffffff;"> </i> </a> </li>
+          </ul>
+      </div>
+    </footer>
+
+  
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+   <script>
+    $(document).ready(function(){
+   
+      $(".header__icon-bar").click(function(e){
+
+        $(".header__menu").toggleClass('is-open');
+        e.preventDefault();
+    });
+  });
+   </script>
+   
+   </body>
+   
+   </html>

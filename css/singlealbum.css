@@ -1,0 +1,406 @@
+html,body {height: 100%;}
+
+body {background-image: url(https://e1.pxfuel.com/desktop-wallpaper/495/448/desktop-wallpaper-vasco-rossi.jpg);}
+
+.animate {
+  -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+/*-------------------------------
+general
+--------------------------------*/
+.button {text-decoration: none;}
+#docu {text-decoration: underline; color: #ff0000a8;}
+#docu:hover {padding: 5px 5px; background-color: #f5000056; color: #eee; text-decoration:underline;}
+#fb {color: #eee;}
+#ig {color: #eee;}
+#yt {color: #eee; }
+#fb:hover {color: #363636;}
+#ig:hover {color: #363636;}
+#yt:hover {color: #363636;}
+a {color:#000000ce; text-decoration: none; }
+a:hover {color: #120079af;}
+
+.btn-conteiner {
+  display: flex;
+  justify-content: center;
+  --color-text: #ffffff;
+  --color-background: #ff135a;
+  --color-outline: #ff145b80;
+  --color-shadow: #00000080;
+}
+
+.btn-content {
+  display: flex;
+  align-items: center;
+  padding: 5px 30px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: 1s;
+  border-radius: 100px;
+  box-shadow: 0 0 0.2em 0 var(--color-background);
+}
+
+.btn-content:hover, .btn-content:focus {
+  transition: 0.5s;
+  -webkit-animation: btn-content 1s;
+  animation: btn-content 1s;
+  outline: 0.1em solid transparent;
+  outline-offset: 0.2em;
+  box-shadow: 0 0 0.4em 0 var(--color-background);
+}
+
+.btn-content .icon-arrow {
+  transition: 0.5s;
+  margin-right: 0px;
+  transform: scale(0.6);
+}
+
+.btn-content:hover .icon-arrow {
+  transition: 0.5s;
+  margin-right: 25px;
+}
+
+.icon-arrow {
+  width: 20px;
+  margin-left: 15px;
+  position: relative;
+  top: 6%;
+}
+  
+/* SVG */
+#arrow-icon-one {
+  transition: 0.4s;
+  transform: translateX(-60%);
+}
+
+#arrow-icon-two {
+  transition: 0.5s;
+  transform: translateX(-30%);
+}
+
+.btn-content:hover #arrow-icon-three {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+.btn-content:hover #arrow-icon-one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+
+.btn-content:hover #arrow-icon-two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+
+/* SVG animations */
+@keyframes color_anim {
+  0% {
+    fill: white;
+  }
+
+  50% {
+    fill: var(--color-background);
+  }
+
+  100% {
+    fill: white;
+  }
+}
+
+/* Button animations */
+@-webkit-keyframes btn-content {
+  0% {
+    outline: 0.2em solid var(--color-background);
+    outline-offset: 0;
+  }
+}
+
+@keyframes btn-content {
+  0% {
+    outline: 0.2em solid var(--color-background);
+    outline-offset: 0;
+  }
+}
+
+/*--------------------------------------------
+header
+----------------------------------------------*/
+.header {background: #111111}
+.header__menu {float:right;margin:0; padding:0;}
+.header__menu__item {display: inline-block;}
+.header__menu__item a{color: #fff;display: block;padding:20px; text-decoration: none;font-family:sans-serif;}
+.header__menu__item a:hover {background: #ff0000a8}
+.header__menu__itemdiv {display: inline-block;}
+.header__menu__itemdiv a{ color: #eee; background:#363636; display: block;padding:20px; text-decoration: none;font-family:sans-serif;}
+
+.header__icon-bar {display: block;float: right;padding: 20px;display: none;}
+.header__icon-bar span {display: block;height: 3px; width: 30px;background: #fff; margin-bottom:5px;}
+
+
+/*---------------------------------
+cover
+----------------------------------*/
+
+.cover{height: 70%;
+  background-image :url(https://kisskiss.it/wp-content/uploads/2022/08/Vasco-Rossi-GettyImages-1148635748-scaled.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.cover__filter {
+background: #000;
+width: 100%;
+height: 100%;
+position: absolute;
+z-index: 0;
+opacity:0.5;
+}
+.cover__caption{
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+.cover__caption__copy{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+/*-------------------------------------------------
+contenuto
+----------------------------------------------------*/
+.imgalbum {margin-left: 200px;}
+/* Spotify music card made by: csozi | Website: www.csozi.hu*/
+
+.card {
+  position: relative;
+  width: 382px;
+  height: 120px;
+  background: #191414;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 199px;
+}
+
+.top {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.pfp {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  height: 40px;
+  width: 40px;
+  background-color: #d2d2d2;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.time {
+  width: 90%;
+  background-color: #5e5e5e;
+  height: 6px;
+  border-radius: 3px;
+  position: absolute;
+  left: 5%;
+  bottom: 22px;
+}
+
+.elapsed {
+  width: 42%;
+  background-color: #1db954;
+  height: 100%;
+  border-radius: 3px;
+}
+
+.controls {
+  color: white;
+  display: flex;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  justify-content: center;
+}
+
+.volume {
+  height: 100%;
+  width: 48px;
+}
+
+.air {
+  height: 100%;
+  width: 48px;
+}
+
+.controls svg {
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.controls svg:hover {
+  color: #1db954;
+}
+
+.volume {
+  opacity: 0;
+  position: relative;
+  transition: 0.2s;
+}
+
+.volume .slider {
+  height: 4px;
+  background-color: #5e5e5e;
+  width: 80%;
+  border-radius: 2px;
+  margin-top: 8px;
+  margin-left: 10%;
+}
+
+.volume .slider .green {
+  background-color: #1db954;
+  height: 100%;
+  width: 80%;
+  border-radius: 3px;
+}
+
+.volume .circle {
+  background-color: white;
+  height: 6px;
+  width: 6px;
+  border-radius: 3px;
+  position: absolute;
+  right: 20%;
+  top: 60%;
+}
+
+.volume_button:hover ~ .volume {
+  opacity: 1;
+}
+
+.timetext {
+  color: white;
+  font-size: 8px;
+  position: absolute;
+}
+
+.time_now {
+  bottom: 11px;
+  left: 10px;
+}
+
+.time_full {
+  bottom: 11px;
+  right: 10px;
+}
+
+.playing {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  gap: 1px;
+  width: 30px;
+  height: 20px;
+}
+
+.greenline {
+  background-color: #1db954;
+  height: 20px;
+  width: 2px;
+  position: relative;
+  transform-origin: bottom;
+}
+
+.line-1 {
+  animation: infinite playing 1s ease-in-out;
+  animation-delay: 0.2s;
+}
+
+.line-2 {
+  animation: infinite playing 1s ease-in-out;
+  animation-delay: 0.5s;
+}
+
+.line-3 {
+  animation: infinite playing 1s ease-in-out;
+  animation-delay: 0.6s;
+}
+
+.line-4 {
+  animation: infinite playing 1s ease-in-out;
+  animation-delay: 0s;
+}
+
+.line-5 {
+  animation: infinite playing 1s ease-in-out;
+  animation-delay: 0.4s;
+}
+
+@keyframes playing {
+  0% {
+    transform: scaleY(0.1);
+  }
+
+  33% {
+    transform: scaleY(0.6);
+  }
+
+  66% {
+    transform: scaleY(0.9);
+  }
+
+  100% {
+    transform: scaleY(0.1);
+  }
+}
+.login__copy{font-family: sans-serif; font-size: 20px; max-width: 800px; margin:0px auto; margin-top: -60px; background: #fff; padding: 20px 40px ; position: relative; z-index: 1}
+
+/*---------------------------------------------
+footer
+----------------------------------------------*/
+.container {text-align: center; background: #111111; padding: 30px; width: 97.5%; position: absolute; top: 180%;}
+.row {text-align: center; color: #fff; font-family: sans-serif; position: relative;}
+.follow {font-family: sans-serif; font-size: 20px;}
+.icons {text-align: center; color: #eee;}
+.icons__item {display:inline-block; font-size: 50px; padding: 10px;} 
+ul {list-style-type:none;}
+
+
+
+/*--------------------
+smarphone-------------*/
+@media (max-width: 767px) {
+  .header {position:fixed; z-index: 100;width: 100%;}
+  .header__icon-bar {display: block;}
+
+  .header__menu {width: 100%;height: 0px; overflow: hidden;}
+  .header__menu__item {display: block;}
+  .is-open {height: 300px; overflow: auto;}
+}
+
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
