@@ -141,7 +141,7 @@ opacity:0.5;
   .banner__copy___text h3 {font-family:sans-serif; }
  
   .banner__image {width: 30%; float: left; height: 100%;
-    background-image :url(imgs/felpe.png);
+    background-image :url("imgs/felpe.png");
     background-size: cover;
     background-position: center;}
   .banner__imagedue {width: 30%; float: left; height: 100%;
