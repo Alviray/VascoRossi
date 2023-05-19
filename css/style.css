@@ -1,7 +1,6 @@
 html,body {height: 100%;}
 
-body {background-image: url(vaschito.jpg);
-}
+body {background-image: url(imgs/vaschito.jpg);}
 
 .animate {
   -webkit-transition: all 0.3s ease-out;
