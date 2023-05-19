@@ -1,6 +1,6 @@
 html,body {height: 100%;}
 
-body {background-image: url(file:///C:/Users/bart2/OneDrive/Desktop/sitoiu/imgs/Vasco_Live_2022.jpg);}
+body {background-image: url(imgs/Vasco_Live_2022.jpg);}
 
 .animate {
   -webkit-transition: all 0.3s ease-out;
@@ -40,7 +40,7 @@ header
 cover
 ----------------------------------*/
 .cover{height: 75%;
-  background-image :url(file:///C:/Users/bart2/OneDrive/Desktop/sitoiu/imgs/discografia.jpg); 
+  background-image :url(imgs/discografia.jpg); 
   background-size: cover;
   position: relative;
 }
