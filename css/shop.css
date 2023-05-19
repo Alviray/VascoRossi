@@ -141,19 +141,19 @@ opacity:0.5;
   .banner__copy___text h3 {font-family:sans-serif; }
  
   .banner__image {width: 30%; float: left; height: 100%;
-    background-image :url(file:///C:/Users/bart2/OneDrive/Desktop/sitoiu/imgs/felpe.png);
+    background-image :url(imgs/felpe.png);
     background-size: cover;
     background-position: center;}
   .banner__imagedue {width: 30%; float: left; height: 100%;
-    background-image :url(file:///C:/Users/bart2/OneDrive/Desktop/sitoiu/imgs/maglie.png);
+    background-image :url(imgs/maglie.png);
     background-size: cover;
     background-position: center;}
   .banner__imagetre {width: 30%; float: left; height: 100%;
-      background-image :url(file:///C:/Users/bart2/OneDrive/Desktop/sitoiu/imgs/cappelli.png);
+      background-image :url(imgs/cappelli.png);
       background-size: cover;
       background-position: center;}
   .banner__imagequattro {width: 30%; float: left; height: 100%;
-        background-image :url(file:///C:/Users/bart2/OneDrive/Desktop/sitoiu/imgs/accessori.png);
+        background-image :url(imgs/accessori.png);
         background-size: cover;
         background-position: center;}
       
