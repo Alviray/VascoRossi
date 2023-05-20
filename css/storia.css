@@ -65,7 +65,7 @@ opacity:0.5;
  /*----------------------------------------
   banner
   ----------------------------------------*/
-  .banner{background: #fff; height: 78%; }
+  .banner{background: #fff; height: 80%; }
 
   .banner__copy {width: 45%; float: left; height: 100%; table;margin-left: 85px;}
   .banner__copy___text {font-family:sans-serif; display: table-cell; vertical-align: middle; padding: 30px; font-size: 20px;}
@@ -110,7 +110,7 @@ opacity:0.5;
 /*---------------------------------------------
 footer
 ----------------------------------------------*/
-.container {text-align: center; background: #111111; padding: 30px; width: 97.5%; position: absolute;}
+.container {text-align: center; background: #111111; padding: 30px; width: 97.5%; position: absolute; top: 650%}
 .row {text-align: center; color: #fff; font-family: sans-serif; position: relative;}
 .follow {font-family: sans-serif; font-size: 20px;}
 .icons {text-align: center; color: #eee;}
