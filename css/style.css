@@ -82,7 +82,7 @@ opacity:0.5;
     background-image :url(https://yt3.googleusercontent.com/9zGRUmnNvAgSiFfbGVDVE1cjhKZcL4g4uRZO6TcotZsWE-P_mgnmBMxuyaq9KCcLlKhHrNiHw9w=s900-c-k-c0x00ffffff-no-rj);
     background-size: cover;
     background-position: center}
-  .banner__copy {width: 70%; float: left; height: 100% }
+  .banner__copy {width: 70%; float: left; height: 100%; }
   .banner__copy___text {font-family:sans-serif; display: table-cell; vertical-align: middle; padding: 30px; }
   .banner__copy___text h3 {font-family:sans-serif; font-size: 30px; margin-bottom:10px; }
   .banner__copy___text h4 {font-family:sans-serif; font-size: 20px; }
