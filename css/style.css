@@ -77,7 +77,7 @@ opacity:0.5;
   /*----------------------------------------
   banner
   ----------------------------------------*/
-  .banner{background: #fff; height: 50%; }
+  .banner{background: #fff; height: 70%; }
   .banner__image {width: 30%; float: left; height: 100%;
     background-image :url(https://yt3.googleusercontent.com/9zGRUmnNvAgSiFfbGVDVE1cjhKZcL4g4uRZO6TcotZsWE-P_mgnmBMxuyaq9KCcLlKhHrNiHw9w=s900-c-k-c0x00ffffff-no-rj);
     background-size: cover;
@@ -100,7 +100,7 @@ cards
 /*---------------------------------------------
 footer
 ----------------------------------------------*/
-.container {text-align: center; background: #111111; padding: 30px; width:1920px; position: absolute; top: 230%;}
+.container {text-align: center; background: #111111; padding: 30px; width:1920px; position: absolute; top: 255%;}
 .row {text-align: center; color: #fff; font-family: sans-serif; position: relative;}
 .follow {font-family: sans-serif; font-size: 20px;}
 .icons {text-align: center; color: #eee;}
