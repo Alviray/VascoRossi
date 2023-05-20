@@ -1,6 +1,7 @@
 html,body {height: 100%;}
 
-body {background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/7f/Vasco_Live_2022_Intro.jpg);}
+body {background-image: url(file:///C:/Users/bart2/OneDrive/Desktop/sitoiu/imgs/Vasco_Live_2022.jpg);
+}
 
 .animate {
   -webkit-transition: all 0.3s ease-out;
@@ -26,10 +27,10 @@ header
 .header {background: #111111}
 .header__menu {float:right;margin:0; padding:0;}
 .header__menu__item {display: inline-block;}
-.header__menu__item a{color: #fff;display: block;padding:20px; text-decoration: none;font-family:sans-serif;}
+.header__menu__item a{color: #fff;display: block;padding:20px; text-decoration: none;font-family:sans-serif;font-size: 10px;}
 .header__menu__item a:hover {background: #ff0000a8}
 .header__menu__itemdiv {display: inline-block;}
-.header__menu__itemdiv a{ color: #eee; background:#363636; display: block;padding:20px; text-decoration: none;font-family:sans-serif;}
+.header__menu__itemdiv a{ color: #eee; background:#363636; display: block;padding:20px; text-decoration: none;font-family:sans-serif;font-size: 10px;}
 
 .header__icon-bar {display: block;float: right;padding: 20px;display: none;}
 .header__icon-bar span {display: block;height: 3px; width: 30px;background: #fff; margin-bottom:5px;}
@@ -60,7 +61,7 @@ opacity:0.5;
     position: relative;
     z-index: 1;
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 13px;
   }
 .cover__caption__copy{
   display: table-cell;
@@ -72,44 +73,46 @@ opacity:0.5;
   contenuto
   ----------------------------------------*/
   .contenuto {background: #eee;}
-  .contenuto__caption{padding: 30px 60px; margin-left: 90px; font-family:sans-serif;font-size: 20px;}  
+  .contenuto__caption{padding: 30px 60px; margin-left: 90px; font-family:sans-serif;font-size: 15px;}  
 
   /*----------------------------------------
   banner
   ----------------------------------------*/
-  .banner{background: #fff; height: 70%; }
+  .banner{background: #fff; height: 120%; }
   .banner__image {width: 30%; float: left; height: 100%;
     background-image :url(https://yt3.googleusercontent.com/9zGRUmnNvAgSiFfbGVDVE1cjhKZcL4g4uRZO6TcotZsWE-P_mgnmBMxuyaq9KCcLlKhHrNiHw9w=s900-c-k-c0x00ffffff-no-rj);
     background-size: cover;
     background-position: center}
-  .banner__copy {width: 70%; float: left; height: 100%; }
-  .banner__copy___text {font-family:sans-serif; display: table-cell; vertical-align: middle; padding: 30px; }
-  .banner__copy___text h3 {font-family:sans-serif; font-size: 30px; margin-bottom:10px; }
-  .banner__copy___text h4 {font-family:sans-serif; font-size: 20px; }
+  .banner__copy {width: 70%; float: left; height: 100% }
+  .banner__copy___text {font-family:sans-serif; display: table-cell; vertical-align: middle; padding: 30px; font-size: 15px;}
+  .banner__copy___text h3 {font-family:sans-serif; font-size: 20px; margin-bottom:10px; }
+  .banner__copy___text h4 {font-family:sans-serif; font-size: 10px; }
 
 /*---------------------------------------------
 cards
 ---------------------------------------------*/
-.cards {max-width: 1200px; margin:40px auto;}
+.cards {max-width: 700px; margin:40px auto;}
 .card {width: 30%; margin: 0 1.5%; background: #fff; float:left;}
 .card__image{width: 100%; height: auto;}
-.card__copy{padding: 5px 30px; font-family:sans-serif;}
+.card__copy{padding: 5px 30px; font-family:sans-serif;font-size: 10px;}
 .card__copy h3 {margin-bottom:0;font-family:sans-serif;}
 
 
 /*---------------------------------------------
 footer
 ----------------------------------------------*/
-.container {text-align: center; background: #111111; padding: 30px; width:1920px; position: absolute; top: 255%;}
-.row {text-align: center; color: #fff; font-family: sans-serif; position: relative;}
-.follow {font-family: sans-serif; font-size: 20px;}
+.container {text-align: center; background: #111111; padding: 30px; width: 100%; position: absolute; top: 340%;}
+.row {text-align: center; color: #fff; font-family: sans-serif; position: relative; font-size: 10px;}
+.follow {font-family: sans-serif; font-size: 10px;}
 .icons {text-align: center; color: #eee;}
-.icons__item {display:inline-block; font-size: 50px; padding: 10px;} 
+.icons__item {display:inline-block; font-size: 30px; padding: 10px;} 
 ul {list-style-type:none;}
+
+
 
 /*--------------------
 smarphone-------------*/
-@media (max-width: 756px) {
+@media (max-width: 767px) {
   .header {position:fixed; z-index: 100;width: 100%;}
   .header__icon-bar {display: block;}
 
@@ -126,3 +129,4 @@ smarphone-------------*/
     clear: both;
     height: 0;
   }
+
