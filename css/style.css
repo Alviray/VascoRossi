@@ -107,11 +107,9 @@ footer
 .icons__item {display:inline-block; font-size: 50px; padding: 10px;} 
 ul {list-style-type:none;}
 
-
-
 /*--------------------
 smarphone-------------*/
-@media (max-width: 767px) {
+@media (max-width: 1080px) {
   .header {position:fixed; z-index: 100;width: 100%;}
   .header__icon-bar {display: block;}
 
