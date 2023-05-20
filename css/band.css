@@ -1,6 +1,6 @@
 html,body {height: 100%;}
 
-body {background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/7f/Vasco_Live_2022_Intro.jpg);}
+body {background-image: url(file:///C:/Users/bart2/OneDrive/Desktop/sitoiu/imgs/Vasco_Live_2022.jpg);}
 
 .animate {
   -webkit-transition: all 0.3s ease-out;
@@ -27,10 +27,10 @@ header
 .header {background: #111111}
 .header__menu {float:right;margin:0; padding:0;}
 .header__menu__item {display: inline-block;}
-.header__menu__item a{color: #fff;display: block;padding:20px; text-decoration: none;font-family:sans-serif;}
+.header__menu__item a{color: #fff;display: block;padding:20px; text-decoration: none;font-family:sans-serif;font-size: 10px;}
 .header__menu__item a:hover {background: #ff0000a8}
 .header__menu__itemdiv {display: inline-block;}
-.header__menu__itemdiv a{ color: #eee; background:#363636; display: block;padding:20px; text-decoration: none;font-family:sans-serif;}
+.header__menu__itemdiv a{ color: #eee; background:#363636; display: block;padding:20px; text-decoration: none;font-family:sans-serif;font-size: 10px;}
 
 .header__icon-bar {display: block;float: right;padding: 20px;display: none;}
 .header__icon-bar span {display: block;height: 3px; width: 30px;background: #fff; margin-bottom:5px;}
@@ -59,14 +59,13 @@ opacity:0.5;
     position: relative;
     z-index: 1;
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 13px;
   }
 .cover__caption__copy{
   display: table-cell;
   vertical-align: middle;
   text-align: center;
   color: #fff;}
- 
 
  /*----------------------------------------
   banner
@@ -80,7 +79,7 @@ opacity:0.5;
 /*---------------------------------------------
 cards
 ---------------------------------------------*/
-.cards {max-width: 1200px; margin:40px auto;}
+.cards {max-width: 800px; margin:40px auto;}
 .card {width: 30%; margin: 0 1.5%; background: #fff; float:left; margin-bottom: 20px; border-radius: 5px;}
 .card__image{width: 100%; height: auto; border-radius: 5px;}
 .card__copy{padding: 5px 30px; font-family:sans-serif;}
@@ -89,12 +88,13 @@ cards
 /*---------------------------------------------
 footer
 ----------------------------------------------*/
-.container {text-align: center; background: #111111; padding: 30px; width: 97.5%; position: absolute; top: 320%;}
-.row {text-align: center; color: #fff; font-family: sans-serif; position: relative;}
-.follow {font-family: sans-serif; font-size: 20px;}
+.container {text-align: center; background: #111111; padding: 30px; width: 100%; position: absolute; top: 300%;}
+.row {text-align: center; color: #fff; font-family: sans-serif; position: relative; font-size: 10px;}
+.follow {font-family: sans-serif; font-size: 10px;}
 .icons {text-align: center; color: #eee;}
-.icons__item {display:inline-block; font-size: 50px; padding: 10px;} 
+.icons__item {display:inline-block; font-size: 30px; padding: 10px;} 
 ul {list-style-type:none;}
+
 
 
   
