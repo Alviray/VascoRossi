@@ -110,7 +110,7 @@ opacity:0.5;
 /*---------------------------------------------
 footer
 ----------------------------------------------*/
-.container {text-align: center; background: #111111; padding: 30px; width: 90.5; position: absolute; top: 520%;}
+.container {text-align: center; background: #111111; padding: 30px; width: 97.5%; position: absolute; top: 210%;}
 .row {text-align: center; color: #fff; font-family: sans-serif; position: relative;}
 .follow {font-family: sans-serif; font-size: 20px;}
 .icons {text-align: center; color: #eee;}
@@ -127,9 +127,6 @@ smarphone-------------*/
   .header__menu__item {display: block;}
   .is-open {height: 300px; overflow: auto;}
 }
-
-
-
   .clearfix:after {
     visibility: hidden;
     display: block;
