@@ -109,7 +109,7 @@ ul {list-style-type:none;}
 
 /*--------------------
 smarphone-------------*/
-@media (max-width: 1080px) {
+@media (max-width: 756px) {
   .header {position:fixed; z-index: 100;width: 100%;}
   .header__icon-bar {display: block;}
 
