@@ -83,14 +83,13 @@ header
 .header {background: #111111}
 .header__menu {float:right;margin:0; padding:0;}
 .header__menu__item {display: inline-block;}
-.header__menu__item a{color: #fff;display: block;padding:20px; text-decoration: none;font-family:sans-serif;}
+.header__menu__item a{color: #fff;display: block;padding:20px; text-decoration: none;font-family:sans-serif;font-size: 10px;}
 .header__menu__item a:hover {background: #ff0000a8}
 .header__menu__itemdiv {display: inline-block;}
-.header__menu__itemdiv a{ color: #eee; background:#363636; display: block;padding:20px; text-decoration: none;font-family:sans-serif;}
+.header__menu__itemdiv a{ color: #eee; background:#363636; display: block;padding:20px; text-decoration: none;font-family:sans-serif;font-size: 10px;}
 
 .header__icon-bar {display: block;float: right;padding: 20px;display: none;}
 .header__icon-bar span {display: block;height: 3px; width: 30px;background: #fff; margin-bottom:5px;}
-
 
 /*---------------------------------
 cover
@@ -141,32 +140,31 @@ opacity:0.5;
   .banner__copy___text h3 {font-family:sans-serif; }
  
   .banner__image {width: 30%; float: left; height: 100%;
-    background-image :url("VascoRossi/imgs/felpe.png");
+    background-image :url(imgs/felpe.png);
     background-size: cover;
     background-position: center;}
   .banner__imagedue {width: 30%; float: left; height: 100%;
-    background-image :url("Alviray/VascoRossi/imgs/felpe.png")
+    background-image :url(imgs/maglie.png);
     background-size: cover;
     background-position: center;}
   .banner__imagetre {width: 30%; float: left; height: 100%;
-      background-image :url("VascoRossi/imgs/felpe.png")
+      background-image :url(imgs/cappelli.png);
       background-size: cover;
       background-position: center;}
   .banner__imagequattro {width: 30%; float: left; height: 100%;
-        background-image :url("VascoRossi/imgs/felpe.png")
+        background-image :url(imgs/accessori.png);
         background-size: cover;
         background-position: center;}
       
 /*---------------------------------------------
 footer
 ----------------------------------------------*/
-.container {text-align: center; background: #111111; padding-top: 25px; width: 100%; position: absolute; top: 280%;}
-.row {text-align: center; color: #fff; font-family: sans-serif; position: relative; font-size: 10px;}
-.follow {font-family: sans-serif; font-size: 10px;}
+.container {text-align: center; background: #111111; padding: 30px; width: 97.5%; position: absolute; top: 280%;}
+.row {text-align: center; color: #fff; font-family: sans-serif; position: relative;}
+.follow {font-family: sans-serif; font-size: 20px;}
 .icons {text-align: center; color: #eee;}
-.icons__item {display:inline-block; font-size: 30px; padding: 10px;} 
+.icons__item {display:inline-block; font-size: 50px; padding: 10px;} 
 ul {list-style-type:none;}
-
 
 
 /*--------------------
@@ -179,8 +177,6 @@ smarphone-------------*/
   .header__menu__item {display: block;}
   .is-open {height: 300px; overflow: auto;}
 }
-
-
 
   .clearfix:after {
     visibility: hidden;
