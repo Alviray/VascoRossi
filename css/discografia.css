@@ -38,7 +38,7 @@ header
 cover
 ----------------------------------*/
 .cover{height: 75%;
-  background-image :url(file:///C:/Users/bart2/OneDrive/Desktop/sitoiu/imgs/discografia.jpg); 
+  background-image :url(imgs/discografia.jpg); 
   background-size: cover;
   position: relative;
 }
