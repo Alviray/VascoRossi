@@ -71,7 +71,7 @@ opacity:0.5;
   ----------------------------------------*/
   .banner{background: #fff; height: 50%; }
   .banner__copy {width: 50%; float: left; height: 100%; margin-left: 120px;}
-  .banner__copy___text {font-family:sans-serif; display: table-cell; vertical-align: middle; padding: 30px; font-size: 15px; }
+  .banner__copy___text {font-family:sans-serif; display: table-cell; vertical-align: middle; padding: 30px; font-size: 13px; }
   .banner__copy___text h3 {font-family:sans-serif; font-size: 30px; margin-bottom:10px; margin-top: 20px; }
 
 /*---------------------------------------------
