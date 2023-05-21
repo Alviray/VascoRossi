@@ -57,6 +57,7 @@ a {color:#ff0000a8 }
 
 .hover-underline-animation a {
   text-decoration: none;
+  font-size: 15px;
   color: #000000;
 }
 
@@ -140,19 +141,19 @@ opacity:0.5;
   .banner__copy___text h3 {font-family:sans-serif; }
  
   .banner__image {width: 30%; float: left; height: 100%;
-    background-image :url(imgs/felpe.png);
+    background-image :url(https://cdn.shopify.com/s/files/1/0536/4819/5783/products/FELPAuomodettaglio_1024x.jpg?v=1669116201);
     background-size: cover;
     background-position: center;}
   .banner__imagedue {width: 30%; float: left; height: 100%;
-    background-image :url(imgs/maglie.png);
+    background-image :url(https://charitycdn.s3.us-east-1.amazonaws.com/cache/resizedcrop-5d9e428ed5954feac116bd582adb23a6-840x480.jpg);
     background-size: cover;
     background-position: center;}
   .banner__imagetre {width: 30%; float: left; height: 100%;
-      background-image :url(imgs/cappelli.png);
+      background-image :url(https://cdn.shopify.com/s/files/1/0536/4819/5783/products/CapNero_2_1024x.jpg?v=1614074449);
       background-size: cover;
       background-position: center;}
   .banner__imagequattro {width: 30%; float: left; height: 100%;
-        background-image :url(imgs/accessori.png);
+        background-image :url(https://cdn.shopify.com/s/files/1/0536/4819/5783/products/tazza_480x.jpg?v=1614177682);
         background-size: cover;
         background-position: center;}
       
