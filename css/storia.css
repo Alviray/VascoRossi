@@ -127,8 +127,6 @@ smarphone-------------*/
   .is-open {height: 300px; overflow: auto;}
 }
 
-
-
   .clearfix:after {
     visibility: hidden;
     display: block;
