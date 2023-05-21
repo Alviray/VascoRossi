@@ -91,7 +91,7 @@ opacity:0.5;
 /*---------------------------------------------
 cards
 ---------------------------------------------*/
-.cards {max-width: 900px; margin:40px auto;}
+.cards {max-width: 700px; margin:40px auto;}
 .card {width: 30%; margin: 0 1.5%; background: #fff; float:left;}
 .card__image{width: 100%; height: auto;}
 .card__copy{padding: 5px 30px; font-family:sans-serif;font-size: 10px;}
@@ -101,7 +101,7 @@ cards
 /*---------------------------------------------
 footer
 ----------------------------------------------*/
-.container {text-align: center; background: #111111; padding: 30px; width: 100%; position: absolute; top: 320%;}
+.container {text-align: center; background: #111111; padding: 30px; width: 100%; position: absolute; top: 340%;}
 .row {text-align: center; color: #fff; font-family: sans-serif; position: relative; font-size: 10px;}
 .follow {font-family: sans-serif; font-size: 10px;}
 .icons {text-align: center; color: #eee;}
