@@ -78,7 +78,7 @@ opacity:0.5;
   /*----------------------------------------
   banner
   ----------------------------------------*/
-  .banner{background: #fff; height: 120%; }
+  .banner{background: #fff; height: 110%; }
   .banner__image {width: 30%; float: left; height: 100%;
     background-image :url(https://yt3.googleusercontent.com/9zGRUmnNvAgSiFfbGVDVE1cjhKZcL4g4uRZO6TcotZsWE-P_mgnmBMxuyaq9KCcLlKhHrNiHw9w=s900-c-k-c0x00ffffff-no-rj);
     background-size: cover;
