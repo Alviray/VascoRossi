@@ -1,6 +1,6 @@
 html,body {height: 100%;}
 
-body {background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/7f/Vasco_Live_2022_Intro.jpg);}
+body {background-image: url(file:///C:/Users/bart2/OneDrive/Desktop/sitoiu/imgs/Vasco_Live_2022.jpg);}
 
 .animate {
   -webkit-transition: all 0.3s ease-out;
@@ -20,6 +20,7 @@ general
 #ig:hover {color: #363636;}
 #yt:hover {color: #363636;}
 
+
 /*--------------------------------------------
 header
 ----------------------------------------------*/
@@ -33,6 +34,7 @@ header
 
 .header__icon-bar {display: block;float: right;padding: 20px;display: none;}
 .header__icon-bar span {display: block;height: 3px; width: 30px;background: #fff; margin-bottom:5px;}
+
 
 /*---------------------------------
 cover
@@ -71,26 +73,28 @@ opacity:0.5;
   .banner{background: #fff; height: 30%; }
   .banner__copy {width: 50%; float: left; height: 100%; margin-left: 120px;}
   .banner__copy___text {font-family:sans-serif; display: table-cell; vertical-align: middle; padding: 30px; font-size: 20px; }
-  .banner__copy___text h3 {font-family:sans-serif; font-size: 40px; margin-bottom:10px; margin-top: 26px; 
+  .banner__copy___text h3 {font-family:sans-serif; font-size: 40px; margin-bottom:10px; margin-top: 26px; }
+
 
 /*---------------------------------------------
 cards
 ---------------------------------------------*/
-.cards {max-width: 800px; margin:40px auto;}
+.cards {max-width: 600px; margin:40px auto;}
 .card {width: 30%; margin: 0 1.5%; background: #fff; float:left; margin-bottom: 20px; border-radius: 5px;}
 .card__image{width: 100%; height: auto; border-radius: 5px;}
 .card__copy{padding: 5px 30px; font-family:sans-serif;}
-.card__copy h3 {margin-bottom:0;font-family:sans-serif;}
+.card__copy h3 {margin-bottom:0;font-family:sans-serif; font-size:12px;}
 
 /*---------------------------------------------
 footer
 ----------------------------------------------*/
-.container {text-align: center; background: #111111; padding: 30px; width: 100%; position: absolute; top: 360%;}
-.row {text-align: center; color: #fff; font-family: sans-serif; position: relative; font-size: 10px;}
-.follow {font-family: sans-serif; font-size: 10px;}
+.container {text-align: center; background: #111111; padding-top: 25px; width: 100%; position: absolute; top: 360%;}
+.row {text-align: center; color: #fff; font-family: sans-serif; position: relative; font-size: 10px;margin-top: 30px;}
+.follow {font-family: sans-serif; font-size: 8px;margin-bottom: 0px;}
 .icons {text-align: center; color: #eee;}
-.icons__item {display:inline-block; font-size: 30px; padding: 10px;} 
+.icons__item {display:inline-block; font-size: 30px; padding: 10px;margin-bottom: 20px;} 
 ul {list-style-type:none;}
+
   
   .clearfix:after {
     visibility: hidden;
