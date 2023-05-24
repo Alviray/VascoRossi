@@ -154,7 +154,7 @@ opacity:0.5;
 
 .banner{background: #eee; height: 300px;}
 .banner__image {width: 100%; float: left; height: 100%;
-  background-image :url(file:///C:/Users/bart2/OneDrive/Desktop/sitoiu/imgs/thumbnail_HOME.png);
+  background-image :url(imgs/thumbnail_HOME.png);
   background-size: cover;
   background-position: center;}
 /*---------------------------------------------
