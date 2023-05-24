@@ -34,12 +34,11 @@ header
 .header__icon-bar {display: block;float: right;padding: 20px;display: none;}
 .header__icon-bar span {display: block;height: 3px; width: 30px;background: #fff; margin-bottom:5px;}
 
-
 /*---------------------------------
 cover
 ----------------------------------*/
 .cover{height: 70%;
-  background-image :url(https://www.ladige.it/image/contentid/policy:1.3214402:1652876261/image.jpg?a=191%3A100&q=0.6&w=1200&$p$a$q$w=e3c1d56);
+  background-image :url(https://www.spettakolo.it/wp-content/uploads/2022/05/vasco-live-trento-768x432.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
